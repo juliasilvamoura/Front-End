@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<!--abrange o conteudo-->
+<html>
+
+<head>
+    <title>Controle de Gastos</title>
+    <meta charset="UTF-8">
+    <!--Link do meu reset.css-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+</head>
+
+<!--CORPO DA PAGINA-->
+
+<body>
+
+    <!--CONTEUDO PRINCIPAL-->
+    <main>
+
+        <!--SEÇÃO DE CONTROLE DE GASTOS (INSERÇÃO DE INFORMAÇÕES)-->
+        <section class="secaoInsercaoInformacoes">
+
+            <h1>Controle de Gastos</h1>
+            <p class="tresPontos">...</p>
+
+            <div class="formularioEntradaOrcamento">
+                <h2>Total Orçamento</h2>
+                <input type="text">
+                <button>Calcular</button>
+            </div>
+
+            <div class="formularioEntradaDespesa">
+                <h2>Nome da despesa</h2>
+                <input type="text" class="formularioEntradaDespesa_nome">
+
+                <h2>Valor despesa</h2>
+                <input type="number" class="formularioEntradaDespesa_valor">
+
+                <button>Adicionar despesa</button>
+            </div>
+
+            <div class="containerDespesas">
+                <div class="containerDespesas_cabecalho">
+                    <p class="tituloDespesa">TÍtulo despesa</p>
+                    <p>Valor despesa</p>
+                </div>
+                <ul class="containerDespesas_lista">
+
+                </ul>
+            </div>
+
+        </section>
+
+        <!--SEÇÃO ORÇAMENTO (IMPRESSÃO DE RESULTADOS)-->
+        <section class="secaoImpressaoResultados">
+
+            <div class="secaoImpressaoResultados_orcamento">
+                <h3>Orçamento</h3>
+                <p>+ R$ 0</p>
+            </div>
+
+            <div class="secaoImpressaoResultados_despesas">
+                <h3>Despesas</h3>
+                <p>- R$ 0</p>
+            </div>
+
+            <div class="secaoImpressaoResultados_saldo">
+                <h3>Saldo</h3>
+                <p>R$ 0</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
