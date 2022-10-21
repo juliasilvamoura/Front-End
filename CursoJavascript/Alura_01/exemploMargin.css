@@ -1,0 +1,54 @@
+body main{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.bloco1{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+/* exemplo margin: 15px para todos
+.bloco2{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    margin: 15px;
+}
+*/
+
+
+/* exemplo margin: 15px 30px primeiro valor vertical (15px para o topo e para baixo) e segundo valor horizontal (30px direita e esquerda)*/
+/* 
+.bloco2{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 15px 30px;
+}
+*/
+
+
+/* exemplo margin: 15px 30px 50px sendo respectivamente topo, margem horizontal (30px direita e esquerda) e baixo */
+/*
+.bloco2{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 15px 30px 50px;
+}
+*/
+
+
+/* Exemplo margin: 50px 15px 15px 50px sendo topo, direita, baixo e esquerda*/
+
+.bloco2{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 50px 15px 50px 15px;
+}
