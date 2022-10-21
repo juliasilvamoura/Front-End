@@ -1,0 +1,51 @@
+* MARCANDO TEXTO
+
+<em>texto</em> no texto com italico (enfase)
+<strong>texto</strong> deixa o texto em negrito (importancia)
+<cite>Drácula</cite> (italico) enfase em títulos, você pode trablahar no CSS pra deixar diferente de um simples texto enfatizado
+<i>texto</i> algo mostrado em italico mas que não possui outro elemento mais apropriado
+<i lang="eng" >Smartphoone</i>
+<b>text</b> algo mostrado em negrito
+
+html aguenta 6 niveis de título
+
+<p>Todo texto escrito aqui independete de quantas linhas pule ou como escreva ele vai aparecer de forma padrão</p>
+<pre>Já os textos escritos aqui vai aparecer igual na tela, pois é um texto pré formatado</pre>
+
+Não pode usar aspas duplas no texto, forma correta:
+<a title="A página &quot;Sobre&quot;"></a>
+
+Simbolo menor que "<"   &lt;
+
+Simbolo "&" &amp
+
+* LISTAS
+
+<ol reversed = "true"> deixa a ordem da lista invertida, não precisa por o true
+<ol type = "I"> Coloque type="I" para algarismos romanos maiúsculos, "i" para algarismos romanos minúsculos, "A" para letras maiúsculas, "a" para letras minúsculas, ou "1" para números, que é o padrão.
+
+<ol start ="6> Se você quiser começar uma lista ordenada, digamos, no 6º item, simplesmente adicione start="6".
+
+* HYPERLINK
+
+<a href="#id_de_um_h"> ele leva a página onde está esse h
+<a hre="algumlink.com" target="_blank"> abre o link em outra página
+
+
+IMAGENS
+
+<img> inserir imagem, não tem tag de fechamento 
+<img src="foto.png"> 
+formatos de imagem: jpeg, gif, png, svg
+
+<img src="foto.jpeg" alt="converter imagem em palavras">
+
+especificações da imagem:
+não é obrigatório, mas fazendo isso você pode reservar um espaço na tela, assim enquanto carrega a imagem as coisas 
+não vão mudando de lugar
+
+<img src="foto.jpeg" alt="converter imagem em palavras"
+width="600"   largura em pixel
+height="600"  altura em pixel
+>
+
