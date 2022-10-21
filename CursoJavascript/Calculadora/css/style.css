@@ -1,0 +1,62 @@
+body{
+    background-color: #e5989b;
+}
+
+main{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin: 100px 100px;
+    padding: 10px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+/*.insercaoDeValores{}*/
+
+h2{
+    font-size: 20px;
+}
+
+.insercaoDeValores input{
+    display: block;
+    width: 80%;
+    outline: none;
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin: auto;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.buttons button{
+    background-color: #e5989b;
+    border-radius: 10px;
+    width: auto;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.imprimindoResultados{
+    margin: 40px auto;
+}
+
+.imprimindoResultados h3{
+    display: block;
+    font-size: 30px;
+}
+
+

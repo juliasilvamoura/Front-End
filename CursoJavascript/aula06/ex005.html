@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos do DOM</title>
+   
+   <style>
+        body{
+            background: blueviolet;
+            color: white;
+            font: normal 18pt Arial;
+        }
+        
+   </style>
+
+</head>
+
+<body>
+    
+    <h1>Iniciando estudos com DOM </h1> 
+    <p>Aqui vai o resultado </p>
+    <p>Aprendendo a usar o  <strong>DOM</strong> em JavaScript.</p>
+    <div id="msg">Clique em mim</div> <!--se for por id coloca id = ""   se for nome name = ""   class = ""--> 
+
+    <script>
+        // MARCA
+        //var corpo = window.document.body
+        //var p1 = window.document.getElementsByTagName('p')[1] //o [0] é o primeiro paragráfo que aparecer se quiser selecionar o segundo será 1, o próximo 2 e assim por diante
+        //window.document.write(p1.innerText) // texto que está no pagarafo 0
+        //p1.style.color = 'yellow'
+        //corpo.style.color = 'red'
+        //document.write(p1.innerText) // trás o tento dentro de p1 sem a formatação
+        //document.write(p1.innerHTML) //trás o texto porem com formatação, no caso está em negrito o DOM
+
+        // ID
+        /*
+        var d= window.document.getElementById('msg')
+        d.style.background  = 'green' // deixa grifado de verde o testo se usar color é só a letra que muda de cor
+        d.innerText = "olá" // agora a frase da variavel d é "OLÁ" 
+        */
+
+        // NAME
+       /*
+        var n = window.document.getElementByName('msg')
+        n.innerText  = "Olá"
+        */
+
+        // CLASS
+        /*
+        var n = window.document.getElementsByClass('msg')
+        n.innerText  = "Olá"
+        */
+
+        // SELETOR
+        /*
+        var d = window.document.querySelector('div#msg')
+        d.style.color = "blue"
+        */
+       
+    </script>
+
+</body>
+</html>

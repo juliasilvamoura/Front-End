@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+
+    <style>
+        div#area{
+            background:  green;
+            color: ivory;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+        Interaja
+        <!-- onclick quando clicar-->
+        <!-- onmouseenter quando o mouse entrar-->
+    </div>
+
+    <script>
+        var a = window.document.getElementById('area') // não é a melhor coisa a se fazer, pq da BO na memória
+        /*a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+        Se fizer essa linha de codigo não precisa por nada na div, só o id
+        */
+
+        function clicar() {
+            
+            a.innerText = "clicou"
+            a.style.background = "red"
+
+        }
+        function entrar(){
+            a.innerText = "Entrou"
+            a.style.background = "pink"
+        }
+
+        function sair(){
+            a.innerText = "Saiu"
+            a.style.background = "green"
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+body{
+    background: rgb(134, 123, 231);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: #ffffff;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px; /* raio das bordas, deixa redondinho */
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10 px rgba(0, 0, 0, 0.527);
+    text-align: center;
+    
+}
+
+div{
+    text-align: center;
+    padding: 8px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
